@@ -8,10 +8,15 @@
     color: white;
 }
 
+body {
+    padding: 0;
+    border: 0;
+}
 .jumbotron.header-mio {
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(../imagesNEW/navbarindex.svg);
 }
 
 .listamio {
@@ -38,6 +43,7 @@
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(../imagesNEW/footerfondoimg.svg);
 }
 
 .footerimg {
