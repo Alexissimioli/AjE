@@ -17,6 +17,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../imagesNEW/navbarindex.svg);
+    
 }
 
 .listamio {
@@ -48,6 +49,7 @@ body {
 
 .footerimg {
     z-index: -1;
+    margin-top: auto;
 }
 .parrafoot {
     font-family: ajetreados; 
