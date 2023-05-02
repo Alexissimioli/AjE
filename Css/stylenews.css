@@ -1,0 +1,50 @@
+@font-face {
+    font-family:ajetreados;
+    src: url(../Font/ajetreados.ttf);
+}
+
+.fondonegro {
+    background-color: black;
+    color: white;
+}
+
+.jumbotron.header-mio {
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listamio {
+    background-color: rgb(116, 46, 46)
+}
+.menu-mio{
+    font-family: ajetreados;
+    color: white;
+}
+
+.ajeimg {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+
+.maincontent {
+    text-align: center;
+}
+
+
+.jumbotron.footer-mio {
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footerimg {
+    z-index: -1;
+}
+.parrafoot {
+    font-family: ajetreados; 
+    text-align: center;
+    z-index: 1;
+}
