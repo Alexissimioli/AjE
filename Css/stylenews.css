@@ -3,6 +3,9 @@
     src: url(../Font/ajetreados.ttf);
 }
 
+.tp {
+    font-family: ajetreados;
+}
 .fondonegro {
     background-color: black;
     color: white;
@@ -12,6 +15,62 @@ body {
     padding: 0;
     border: 0;
 }
+
+.jumbotron {
+    background-size: cover; 
+    background-position:center; 
+  }
+  
+  @media (max-width: 863px) {
+    .jumbotron {
+      background-size: contain; 
+    }
+     .btn-group img{
+        font-size: 0.8rem; 
+        max-width: 50%;
+        margin-top: 1.5rem;
+      }
+      .dropdown-menu {
+        font-size: 0.8rem; 
+        max-width: 50%;
+        margin-top: 1.5rem;
+
+      }
+     .iconos-container img {
+        max-width: 50%;
+        margin-top: 1rem;
+     }
+      #imgindexback {
+        max-width: 100%;
+      }
+
+    .parrafoot {
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+    .tp1 {
+        font-size: 25px;
+    }
+    .tp2 {
+        font-size: 11px;
+    }
+    }
+
+    .menu-desplegable {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      
+      .menu-desplegable.show {
+        max-height: 200px; 
+    }
+
+    .bg-image {
+        background-size: 100% auto !important;
+        background-position: center center !important;
+      }
+      
 .jumbotron.header-mio {
     height: 100px;
     background-position: center;
@@ -35,9 +94,6 @@ body {
     height: auto;
 }
 
-.maincontent {
-    text-align: center;
-}
 
 
 .jumbotron.footer-mio {
