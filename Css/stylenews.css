@@ -89,11 +89,10 @@ body {
 
 .ajeimg {
     max-width: 70%;
-    max-height: 70%;
+    max-height: 90%;
     width: auto;
     height: auto;
 }
-
 
 
 .jumbotron.footer-mio {
@@ -103,12 +102,14 @@ body {
     background-image: url(../imagesNEW/footerfondoimg.svg);
 }
 
-.footerimg {
-    z-index: -1;
-    margin-top: auto;
-}
 .parrafoot {
     font-family: ajetreados; 
     text-align: center;
     z-index: 1;
+}
+
+.bordermio {
+    background-image: linear-gradient(to bottom, #dd1818cc, #1d1d1d);
+    border: 5px solid #ffffff
+
 }
