@@ -5,6 +5,20 @@
 
 .tp {
     font-family: ajetreados;
+    color: white;
+}
+
+.tp4 {
+    font-family: ajetreados;
+    font-size: 13px;
+    color: white;
+}
+
+.tp5 {
+    font-family: ajetreados;
+    font-size: 14px;
+    color: white;
+    opacity: 1;
 }
 .fondonegro {
     background-color: black;
@@ -112,4 +126,34 @@ body {
     background-image: linear-gradient(to bottom, #dd1818cc, #1d1d1d);
     border: 5px solid #ffffff
 
+}
+.card {
+    background-image: linear-gradient(to bottom, #9c2626, #501010d3);
+    }
+
+.card-title {
+    color: white;
+}
+
+.bordercard {
+    border-radius: 5%;
+}
+
+.bordeaje {
+    border: 3px solid #ffffff
+}
+
+.bordecomprar {
+    background-image: linear-gradient(to bottom, #dd1818cc, #581414);
+    border: 3px solid #ffffff;
+}
+
+@media (max-width: 863px) { 
+.card {
+    margin: 6px;
+}
+}
+
+#ic {
+    max-width: 120px;
 }
