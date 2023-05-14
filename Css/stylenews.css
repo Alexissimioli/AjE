@@ -169,11 +169,18 @@ margin-left: 1.5rem;
     
 }
 
-.carousel-item img {
+  .carousel-item img {
     width: 50%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
   }
   
+.listamio {
+    background-color: rgb(116, 46, 46)
+}
 .menu-mio{
     font-family: ajetreados;
     color: white;
@@ -204,12 +211,6 @@ margin-left: 1.5rem;
     background-image: linear-gradient(to bottom, #9c2626, #501010d3);
     }
 
-.carousel-item img {
-    align-items: center;
-    justify-content: center;
-    margin-left: 25%;
- }
-      
 .card-title {
     color: white;
 }
