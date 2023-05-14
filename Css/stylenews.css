@@ -8,6 +8,18 @@
     color: white;
 }
 
+.tpc {
+    font-family: ajetreados;
+    color: #dd1818cc;
+    text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.tpc2 {
+    font-family: ajetreados;
+    color: #ffffff;
+    text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
 .tp4 {
     font-family: ajetreados;
     font-size: 13px;
@@ -30,9 +42,73 @@ body {
     border: 0;
 }
 
+.divheader {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.divheader2 {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.ulclass {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.itemcentrados {
+    align-items: center;
+}
+
+.posrelative {
+    position: relative;
+}
+
+.marright1 {
+    margin-right: 1rem;
+}
+
+
+.martop1 {
+    margin-top: 1.5rem;
+}
+
+.espacioiconos {
+margin-right: 1.5rem;
+margin-left: 1.5rem;
+}
+
+.textocentro {
+    text-align: center;
+}
+
+.opacidad {
+    opacity: 0.5;
+}
+
+
 .jumbotron {
     background-size: cover; 
     background-position:center; 
+  }
+
+  .mainimgcont1 {
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .mainimgcont2 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .imgmain {
+    position: relative;
   }
   
   @media (max-width: 863px) {
@@ -81,8 +157,8 @@ body {
     }
 
     .bg-image {
-        background-size: 100% auto !important;
-        background-position: center center !important;
+        background-size: 100% auto;
+        background-position: center center;
       }
       
 .jumbotron.header-mio {
@@ -93,27 +169,24 @@ body {
     
 }
 
-.listamio {
-    background-color: rgb(116, 46, 46)
-}
+.carousel-item img {
+    width: 50%;
+    height: auto;
+  }
+  
 .menu-mio{
     font-family: ajetreados;
     color: white;
 }
-
-.ajeimg {
-    max-width: 70%;
-    max-height: 90%;
-    width: auto;
-    height: auto;
-}
-
-
 .jumbotron.footer-mio {
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../imagesNEW/footerfondoimg.svg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .parrafoot {
@@ -131,6 +204,12 @@ body {
     background-image: linear-gradient(to bottom, #9c2626, #501010d3);
     }
 
+.carousel-item img {
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+ }
+      
 .card-title {
     color: white;
 }
@@ -152,8 +231,4 @@ body {
 .card {
     margin: 6px;
 }
-}
-
-#ic {
-    max-width: 120px;
 }
