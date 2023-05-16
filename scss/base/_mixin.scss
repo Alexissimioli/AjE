@@ -1,0 +1,89 @@
+@mixin align-items($value) {
+    align-items: $value;
+  }
+  
+  @mixin justify-content($value) {
+    justify-content: $value;
+  }
+  
+  @mixin display($value) {
+    display: $value;
+  }
+  
+  @mixin position($value) {
+    position: $value;
+  }
+  
+  @mixin margin-right($value) {
+    margin-right: $value;
+  }
+  
+  @mixin margin-top($value) {
+    margin-top: $value;
+  }
+  
+  @mixin background-size($value) {
+    background-size: $value;
+}
+
+    @mixin background-position($value) {
+    background-position: $value;
+}
+    
+    @mixin background-image($value) {
+    background-image: $value;
+    }
+    
+    @mixin font-family($value) {
+    font-family: $value;
+    }
+    
+    @mixin color($value) {
+    color: $value;
+    }
+    
+    @mixin opacity($value) {
+    opacity: $value;
+    }
+    
+    @mixin border($width, $style, $color) {
+    border: $width $style $color;
+    }
+    
+    @mixin max-height($value) {
+    max-height: $value;
+    }
+    
+    @mixin overflow($value) {
+    overflow: $value;
+    }
+    
+    @mixin transition($value) {
+    transition: $value;
+    }
+    
+    @mixin media($query) {
+    @media #{$query} {
+    @content;
+    }
+    }
+    
+    @mixin gradient($direction, $color1, $color2) {
+    background-image: linear-gradient(to #{ $direction }, #{ $color1 }, #{ $color2 });
+    }
+  
+    @mixin btn($background, $color, $border) {
+        background-color: $background;
+        color: $color;
+        border-color: $border;
+        
+        &:hover {
+          background-color: darken($background, 10%);
+          color: $color;
+          border-color: $border;
+        }
+        
+        &:focus {
+          box-shadow: 0 0 0 0.25rem rgba($border, 0.5);
+        }
+      }

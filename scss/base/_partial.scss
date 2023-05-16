@@ -1,0 +1,130 @@
+@import 'vars';
+@import 'mixin';
+
+@font-face {
+  font-family: $font-family;
+  src: url(../Font/ajetreados.ttf);
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  
+  &.header-mio {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../imagesNEW/navbarindex.svg);
+  }
+
+  &.footer-mio {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../imagesNEW/footerfondoimg.svg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  @media (max-width: 863px) {
+    background-size: contain;
+
+    .btn-group img {
+      font-size: 0.8rem;
+      max-width: 50%;
+      margin-top: 1.5rem;
+    }
+
+    .dropdown-menu {
+      font-size: 0.8rem;
+      max-width: 50%;
+      margin-top: 1.5rem;
+    }
+
+    .iconos-container img {
+      max-width: 50%;
+      margin-top: 1rem;
+    }
+
+    #imgindexback {
+      max-width: 100%;
+    }
+
+    .parrafoot {
+      font-size: 0.8rem;
+      margin-top: 1.1rem;
+    }
+
+    .tp1 {
+      font-size: 25px;
+    }
+
+    .tp2 {
+      font-size: 11px;
+    }
+  }
+}
+
+.listamio {
+  background-color: rgb(116, 46, 46);
+}
+
+.menu-mio {
+  font-family: $font-family;
+  color: white;
+}
+
+.parrafoot {
+  font-family: $font-family;
+  text-align: center;
+  z-index: 1;
+}
+
+.bordermio {
+  background-image: linear-gradient(to bottom, #dd1818cc, #1d1d1d);
+  border: 5px solid #ffffff;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #9c2626, #501010d3);
+  
+  &-title {
+    color: white;
+  }
+
+  &.bordercard {
+    border-radius: 5%;
+  }
+
+  &.bordeaje {
+    border: 3px solid #ffffff;
+  }
+
+  &.bordecomprar {
+    background-image: linear-gradient(to bottom, #dd1818cc, #581414);
+    border: 3px solid #ffffff;
+  }
+
+  @media (max-width: 863px) {
+    margin: 6px;
+  }
+}
+
+.mainimgcont1 {
+  position: relative;
+
+  .mainimgcont2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .imgmain {
+      z-index: 1;
+    }
+  }
+}
