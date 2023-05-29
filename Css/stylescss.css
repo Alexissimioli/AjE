@@ -1,3 +1,73 @@
+.jumbotron.header-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/navbarindex.svg);
+}
+
+@media (max-width: 863px) {
+  .jumbotron.header-mio {
+    height: auto;
+    background-image: none;
+  }
+}
+.btn-group img {
+  font-size: 0.8rem;
+  max-width: 70%;
+  margin-top: 1.5rem;
+}
+
+.dropdown-menu {
+  font-size: 1rem;
+  max-width: 50%;
+  margin-top: 1.5rem;
+}
+
+.iconos-container img {
+  max-width: 80%;
+  margin-top: 1rem;
+}
+
+#imgindexback {
+  max-width: 100%;
+}
+
+.parrafoot {
+  font-size: 0.8rem;
+  margin-top: 1.1rem;
+}
+
+.tp1 {
+  font-size: 25px;
+}
+
+.tp2 {
+  font-size: 17px;
+}
+
+.bg-image-rust {
+  background-image: url(../imagesNEW/rustrojo.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-bosque {
+  background-image: url(../imagesNEW/bosque.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-subte {
+  background-image: url(../imagesNEW/subte.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
 @font-face {
   font-family: ajetreados;
   src: url(../Font/ajetreados.ttf);
@@ -112,6 +182,195 @@
   z-index: 1;
 }
 
+.video {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.jumbotron.footer-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/footerfondoimg.svg);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 2%;
+}
+
+.parrafoot {
+  font-family: ajetreados;
+  text-align: center;
+  z-index: 1;
+}
+
+.bg-image-rust {
+  background-image: url(../imagesNEW/rustrojo.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-bosque {
+  background-image: url(../imagesNEW/bosque.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-subte {
+  background-image: url(../imagesNEW/subte.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-rust {
+  background-image: url(../imagesNEW/rustrojo.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-bosque {
+  background-image: url(../imagesNEW/bosque.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-subte {
+  background-image: url(../imagesNEW/subte.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: ajetreados;
+  src: url(../Font/ajetreados.ttf);
+}
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron.header-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/navbarindex.svg);
+}
+.jumbotron.footer-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/footerfondoimg.svg);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+@media (max-width: 863px) {
+  .jumbotron {
+    background-size: contain;
+  }
+  .jumbotron .btn-group img {
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin-top: 1.5rem;
+  }
+  .jumbotron .dropdown-menu {
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin-top: 1.5rem;
+  }
+  .jumbotron .iconos-container img {
+    max-width: 50%;
+    margin-top: 1rem;
+  }
+  .jumbotron #imgindexback {
+    max-width: 100%;
+  }
+  .jumbotron .parrafoot {
+    font-size: 0.8rem;
+    margin-top: 1.1rem;
+  }
+  .jumbotron .tp1 {
+    font-size: 25px;
+  }
+  .jumbotron .tp2 {
+    font-size: 11px;
+  }
+}
+
+.listamio {
+  background-color: rgb(116, 46, 46);
+}
+
+.menu-mio {
+  font-family: ajetreados;
+  color: white;
+}
+
+.parrafoot {
+  font-family: ajetreados;
+  text-align: center;
+  z-index: 1;
+}
+
+.bordermio {
+  background-image: linear-gradient(to bottom, rgba(221, 24, 24, 0.8), #1d1d1d);
+  border: 5px solid #ffffff;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #9c2626, rgba(80, 16, 16, 0.8274509804));
+}
+.card-title {
+  color: white;
+}
+.card.bordercard {
+  border-radius: 5%;
+}
+.card.bordeaje {
+  border: 3px solid #ffffff;
+}
+.card.bordecomprar {
+  background-image: linear-gradient(to bottom, rgba(221, 24, 24, 0.8), #581414);
+  border: 3px solid #ffffff;
+}
+@media (max-width: 863px) {
+  .card {
+    margin: 6px;
+  }
+}
+
+.mainimgcont1 {
+  position: relative;
+}
+.mainimgcont1 .mainimgcont2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainimgcont1 .mainimgcont2 .imgmain {
+  z-index: 1;
+}
+
+.video {
+  object-fit: cover;
+  max-width: 100%;
+}
+
 #logo {
   transition: transform 0.7s;
 }
@@ -188,6 +447,212 @@
 }
 .btn-hover:hover {
   transform: scale(1.1);
+}
+
+.jumbotron.header-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/navbarindex.svg);
+}
+
+@media (max-width: 863px) {
+  .jumbotron.header-mio {
+    height: auto;
+    background-image: none;
+  }
+}
+.btn-group img {
+  font-size: 0.8rem;
+  max-width: 70%;
+  margin-top: 1.5rem;
+}
+
+.dropdown-menu {
+  font-size: 1rem;
+  max-width: 50%;
+  margin-top: 1.5rem;
+}
+
+.iconos-container img {
+  max-width: 80%;
+  margin-top: 1rem;
+}
+
+#imgindexback {
+  max-width: 100%;
+}
+
+.parrafoot {
+  font-size: 0.8rem;
+  margin-top: 1.1rem;
+}
+
+.tp1 {
+  font-size: 25px;
+}
+
+.tp2 {
+  font-size: 17px;
+}
+
+.bg-image-rust {
+  background-image: url(../imagesNEW/rustrojo.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-bosque {
+  background-image: url(../imagesNEW/bosque.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-subte {
+  background-image: url(../imagesNEW/subte.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: ajetreados;
+  src: url(../Font/ajetreados.ttf);
+}
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron.header-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/navbarindex.svg);
+}
+.jumbotron.footer-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/footerfondoimg.svg);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+@media (max-width: 863px) {
+  .jumbotron {
+    background-size: contain;
+  }
+  .jumbotron .btn-group img {
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin-top: 1.5rem;
+  }
+  .jumbotron .dropdown-menu {
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin-top: 1.5rem;
+  }
+  .jumbotron .iconos-container img {
+    max-width: 50%;
+    margin-top: 1rem;
+  }
+  .jumbotron #imgindexback {
+    max-width: 100%;
+  }
+  .jumbotron .parrafoot {
+    font-size: 0.8rem;
+    margin-top: 1.1rem;
+  }
+  .jumbotron .tp1 {
+    font-size: 25px;
+  }
+  .jumbotron .tp2 {
+    font-size: 11px;
+  }
+}
+
+.listamio {
+  background-color: rgb(116, 46, 46);
+}
+
+.menu-mio {
+  font-family: ajetreados;
+  color: white;
+}
+
+.parrafoot {
+  font-family: ajetreados;
+  text-align: center;
+  z-index: 1;
+}
+
+.bordermio {
+  background-image: linear-gradient(to bottom, rgba(221, 24, 24, 0.8), #1d1d1d);
+  border: 5px solid #ffffff;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #9c2626, rgba(80, 16, 16, 0.8274509804));
+}
+.card-title {
+  color: white;
+}
+.card.bordercard {
+  border-radius: 5%;
+}
+.card.bordeaje {
+  border: 3px solid #ffffff;
+}
+.card.bordecomprar {
+  background-image: linear-gradient(to bottom, rgba(221, 24, 24, 0.8), #581414);
+  border: 3px solid #ffffff;
+}
+@media (max-width: 863px) {
+  .card {
+    margin: 6px;
+  }
+}
+
+.mainimgcont1 {
+  position: relative;
+}
+.mainimgcont1 .mainimgcont2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainimgcont1 .mainimgcont2 .imgmain {
+  z-index: 1;
+}
+
+.video {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.jumbotron.footer-mio {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url(../imagesNEW/footerfondoimg.svg);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 2%;
+}
+
+.parrafoot {
+  font-family: ajetreados;
+  text-align: center;
+  z-index: 1;
 }
 
 .tp {
@@ -273,6 +738,37 @@ body {
   opacity: 0.5;
 }
 
+.carousel-container {
+  max-width: 1500px;
+  max-height: 2000px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.carousel-inner .carousel-item img {
+  max-width: 50%;
+  height: auto;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
 .carousel-item img {
   width: 50%;
   height: auto;
@@ -280,6 +776,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 25%;
+  margin-top: 0%;
 }
 
 .menu-desplegable {
@@ -304,9 +801,29 @@ body {
   margin-top: -27%;
 }
 
-@media (max-width: 863px) {
+@media (max-width: 412px) {
   .ajeimg {
     top: calc(50% - 400px);
+  }
+}
+@media (max-width: 650px) {
+  .carousel-container {
+    max-width: 80%;
+    height: 80px;
+    margin-bottom: 50%;
+  }
+  .carousel-item {
+    margin-top: 80px;
+  }
+  .carousel-inner {
+    height: 350px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+  .btn {
+    margin-top: 10px;
   }
 }
 .btn.bordecomprar {

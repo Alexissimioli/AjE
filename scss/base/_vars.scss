@@ -14,3 +14,31 @@ $font-size: (
 $button-background: #dd1818cc;
 $button-color: white;
 $button-border: #ffffff;
+
+$rust-background-image: url(../imagesNEW/rustrojo.jpg);
+$bosque-background-image: url(../imagesNEW/bosque.jpg);
+$subte-background-image: url(../imagesNEW/subte.jpg);
+
+.bg-image-rust {
+  background-image: $rust-background-image;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-bosque {
+  background-image: $bosque-background-image;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.bg-image-subte {
+  background-image: $subte-background-image;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}

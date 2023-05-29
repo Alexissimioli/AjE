@@ -1,0 +1,19 @@
+@import "../base/partial";
+
+.jumbotron.footer-mio {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../imagesNEW/footerfondoimg.svg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 2%;
+  }
+  
+  .parrafoot {
+    font-family: $font-family;
+    text-align: center;
+    z-index: 1;
+  }
+  

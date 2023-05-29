@@ -1,3 +1,5 @@
+@import "./componentes/header";
+@import "./componentes/footer";
 @import "./base/vars";
 @import "./base/listas";
 @import "./base/extend";
@@ -97,6 +99,37 @@
   .opacidad {
   opacity: 0.5;
   }
+
+  .carousel-container {
+    max-width: 1500px;
+    max-height: 2000px; 
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  
+  .carousel-inner .carousel-item img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
   
   .carousel-item img {
   width: 50%;
@@ -105,6 +138,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 25%;
+  margin-top: 0%;
   }
   
   .menu-desplegable {
@@ -130,9 +164,34 @@
     margin-top: -27%; 
   }
   
-  @media (max-width: 863px) {
+  @media (max-width: 412px) {
     .ajeimg {
       top: calc(50% - 400px);
+    }
+  }
+
+  @media (max-width: 650px) {
+    .carousel-container{
+      max-width:80%;
+      height:80px;
+      margin-bottom:50%;
+    }
+
+    .carousel-item {
+      margin-top: 80px;
+    }
+
+    .carousel-inner {
+      height: 350px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10%;
+    }
+
+    .btn {
+      margin-top: 10px;
     }
   }
 
