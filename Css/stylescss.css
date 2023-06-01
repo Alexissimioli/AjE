@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: ajetreados;
-  src: url(../Font/ajetreados.ttf);
+  src: url(../font/ajetreados.ttf);
 }
 .jumbotron {
   background-size: cover;
@@ -315,7 +315,7 @@
 
 @font-face {
   font-family: ajetreados;
-  src: url(../Font/ajetreados.ttf);
+  src: url(../font/ajetreados.ttf);
 }
 .jumbotron {
   background-size: cover;
